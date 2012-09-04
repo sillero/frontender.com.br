@@ -3,7 +3,7 @@
 	<head>
 		<title>frontender.com.br logo samples</title>
 		<style>
-			@import url(http://fonts.googleapis.com/css?family=Fugaz+One);
+			@import url(http://fonts.googleapis.com/css?family=UnifrakturCook:700);
 
 			body {
 				min-height: 100%;
@@ -18,23 +18,32 @@
 			li {
 				display: block;
 				position: relative;
-				margin: 5px;
+				margin: 5px 5px 5px 115px;
 				background: #4D1919;
 				width: 90px;
 				height: 90px;
-				float: left;
+				float: none;
 				color: #fff;
 				font-size: 200px;
 				text-align: center;
 				line-height: 150px;
 				font-family: verdana;
 				overflow: hidden;
-				text-transform: uppercase
+				text-transform: uppercase;
 			}
 			.frontender {
 				width: 80px;
-				height: 80px;
+				height: 160px;
 				text-shadow: -1px 2px 3px #666;
+				float: left;
+				margin: 5px;
+			}
+			.v2 li {
+				margin: 5px 115px 5px 5px;
+			}
+			.v2 .frontender {
+				float: right;
+				margin: 5px;
 			}
 			.v1, .v2 {
 				float: left;
@@ -42,18 +51,24 @@
 				margin: 60px;
 
 			}
+
+			.v3 li, .v4 li {
+				float: left;
+				margin: 22px 5px 5px;
+			}
+			.v3 .frontender {
+				margin: 5px 30px 5px 5px;
+			}
+			.v4 .frontender {
+				margin: 5px 5px 5px 30px;	
+			}
 			.v3, .v5 {
 				clear: both;
 			}
 			.v3, .v4 {
-				width: 400px;
 				margin: 60px;
 			}
-			.v5, .v6 {
-				float: left;
-				width: 100px;
-				margin: 60px;
-			}
+			
 			.html {
 				font-family: arial;
 			}
@@ -86,7 +101,7 @@
 			    text-indent: 5px;
 				text-transform: uppercase;
 				color: #fff;
-				font-family: 'Fugaz one', cursive;
+				font-family: 'UnifrakturCook', cursive;
 				border: 5px solid #fff;
 			}
 		</style>
@@ -101,8 +116,8 @@
 
 
 		<ul class="view v2">
-			<li class="html">&lt;</li>
 			<li class="frontender">f</li>
+			<li class="html">&lt;</li>
 			<li class="css">{</li>
 			<li class="js">(</li>
 		</ul>
@@ -122,19 +137,5 @@
 			<li class="frontender">f</li>
 		</ul>
 
-
-		<ul class="view v5">
-			<li class="frontender">f</li>
-			<li class="html">&lt;</li>
-			<li class="css">{</li>
-			<li class="js">(</li>
-		</ul>
-
-		<ul class="view v6">
-			<li class="html">&lt;</li>
-			<li class="css">{</li>
-			<li class="js">(</li>
-			<li class="frontender">f</li>
-		</ul>
 	</body>
 </html>
