@@ -99,7 +99,9 @@ textarea {
 	margin-left: 13px;
 }
 
-
+body {
+	min-width: 320px;
+}
 
 
 
