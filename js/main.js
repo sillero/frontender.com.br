@@ -1,5 +1,5 @@
 $(function(){
-	$(window).bind('deviceorientation', function(){
+	$(window).bind('orientationchange', function(){
 		$('#content').fadeToggle();
 	})
 });
