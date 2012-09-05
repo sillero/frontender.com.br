@@ -1,5 +1,5 @@
 # Frontender
 Recursos e notícias para desenvolvedores front-end brasileiros
 
-## O time
-[Gustavo Sillero](/sillero) (por enquanto :p)
+## Contribuidores
+[Gustavo Sillero](/sillero) (só, por enquanto :p)
