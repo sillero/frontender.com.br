@@ -2,4 +2,4 @@
 Recursos e notícias para desenvolvedores front-end brasileiros
 
 ## O time
-[Gustavo Sillero](/sillero)
+[Gustavo Sillero](/sillero) (por enquanto :p)
