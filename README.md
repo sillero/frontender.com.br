@@ -1,5 +1,5 @@
 # Frontender
 Recursos e notícias para desenvolvedores front-end brasileiros
 
-# Time
-@sillero
+## O time
+[Gustavo Sillero](/sillero)
