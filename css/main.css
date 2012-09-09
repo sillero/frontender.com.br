@@ -76,10 +76,8 @@ a {
 	font-size: 72px;
 	color: #727B91;
 	display: block;
-	position: fixed;
-	top: 30px;
-	left: 25%;
-	margin-left: -131px;
+	width: 261px;
+    margin: 30px auto;
 }
 .logo .symbol {
 	display: none;
