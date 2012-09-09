@@ -10,5 +10,5 @@
 	{% assign author_url = 'http://github.com/' | append: author_name %}
 {% endif %}
 
-(author_name)[author_url]
+({{ author_name }})[{{ author_url }}]
 
