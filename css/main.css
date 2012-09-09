@@ -108,6 +108,7 @@ body, html {
 #content {
 	height: 100%;
 	position: relative;
+    background: url(img/dark_wall.png);
 }
 #left {
     width: 400px;
@@ -127,7 +128,6 @@ body, html {
 	margin-left: 400px;
     min-width: 607px;
     width: auto;
-	background: url(img/dark_wall.png);
     color: #fff;
     box-shadow: -3px 0 70px #fff;
 	height: 100%;
