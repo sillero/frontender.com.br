@@ -138,6 +138,9 @@ body, html {
 	font-size: 12px;
 	float: left;
 }
+#posts .author::before {
+	content: "por";
+}
 #posts .author::after {
 	content: "|";
 	margin: 0 10px 0 5px;
