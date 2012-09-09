@@ -4,13 +4,26 @@ layout: default
 	<section id="posts">
 		<!-- post not showing? check the time {{ site.time }} -->
 		{% for post in site.posts %}
-		<article>
-			<div class="title">{{ post.title }}</div>
-			<div class="meta">
-				<div class="author">{% include author.html %}</div>
-				<div class="date">{% include date.html %}</div>
-			</div>
-			<div class="story">{{ post.content }}</div>
-		</article>
+			
+			{% if post.type %}
+				{% assign post_type = post.type %}
+			{% else %}
+				{% assign post_type = 'article' %}
+			{% endif %}
+			
+
+			{% case post_type %}
+				{% when 'article' %}
+					<article>
+						<div class="title">{{ post.title }}</div>
+						<div class="meta">
+							<div class="author">{% include author.html %}</div>
+							<div class="date">{% include date.html %}</div>
+						</div>
+						<div class="story">{{ post.content }}</div>
+					</article>
+				{% else %}
+					<div class="post post-{{ post-type }}">{{ post.content }}</div>
+			{% endcase %}
 		{% endfor %}
 	</section>
