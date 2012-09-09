@@ -111,6 +111,16 @@ body, html {
 	height: 100%;
 	position: relative;
 }
+#section {
+	margin-left: 50%;
+	width: 50%;
+	background: #f8f8f8;
+	height: 100%;
+}
+#posts {
+	margin: 10px;
+	padding: 10px;
+}
 
 
 
