@@ -132,21 +132,21 @@ body, html {
 }
 #posts .meta {
 	overflow: hidden;
-	color: #bbb;
+	color: #ccc;
 }
 #posts .author, #posts .date {
 	font-size: 12px;
 	float: left;
 }
+#posts .author a {
+	color: #B1B8C7;
+}
 #posts .author::before {
 	content: "por";
 }
 #posts .author::after {
-	content: "|";
-	margin: 0 10px 0 5px;
-	font-size: 10px;
-	position: relative;
-	top: -1px;
+	content: "em";
+	margin: 0 4px 0 0;
 }
 #posts .story {
 	margin-top: 20px;
