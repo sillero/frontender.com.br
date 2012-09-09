@@ -110,10 +110,12 @@ body, html {
 	position: relative;
     background: url(img/dark_wall.png);
 }
+#left, #right {
+    height: 100%;
+    overflow: auto;
+}
 #left {
     width: 400px;
-    overflow: auto;
-    height: 100%;
     background: url(img/grey.png);
     box-shadow: 3px 0 10px #000;
     position: absolute;
@@ -127,11 +129,8 @@ body, html {
 #right {
 	margin-left: 400px;
     min-width: 607px;
-    width: auto;
     color: #fff;
     box-shadow: -3px 0 70px #fff;
-	height: 100%;
-    overflow: auto;
 }
 #posts {
 	padding: 10px;
@@ -201,11 +200,8 @@ body, html {
     #content {
         min-height: 768px;
     }
-    #left {
-        width: 400px;
-    }
     #right {
-        width: 607px;
+        width: 624px;
     }
 }
 
