@@ -158,6 +158,9 @@ body, html {
 	content: "em";
 	margin: 0 4px 0 0;
 }
+#posts .labels {
+    clear: both;
+}
 #posts .meta, #posts .story {
 	margin: 0 10px;
 }
