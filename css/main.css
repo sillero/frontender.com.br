@@ -115,7 +115,7 @@ body, html {
     float: left;
     overflow: auto;
     height: 100%;
-    box-shadow: 3px 0 7px #DDD;
+    background: url(img/grey.png);
 }
 #left > .wrapper {
     padding: 0 20px;
@@ -126,7 +126,9 @@ body, html {
 #right {
 	margin-left: 524px;
     min-width: 507px;
-	background: #f8f8f8;
+	background: url(img/dark_wall.png);
+    color: #fff;
+    box-shadow: -3px 0 70px #fff;
 	height: 100%;
     overflow: auto;
 }
@@ -140,7 +142,6 @@ body, html {
 	font-size: 20px;
 	font-weight: bold;
 	text-indent: 10px;
-	background: #fafafa;
 }
 #posts .meta {
 	overflow: hidden;
