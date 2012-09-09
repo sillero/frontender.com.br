@@ -1,4 +1,4 @@
-{% assign labels = post.labels | remove:' ' | split:',' %}
+{% assign labels = post.labels | split:',' %}
 {% for label in labels %}
 	<span class="label">{{ label }}</span>
 {% endfor %}
