@@ -8,7 +8,7 @@ layout: default
 			<div class="title">{{ post.title }}</div>
 			<div class="meta">
 				<div class="author">{% include author.html %}</div>
-				<div class="date">{{ post.date | date_to_long_string | replace:'January','de Janeiro de' | replace:'February','de Fevereiro de' | replace:'March','de Março de' | replace:'April','de Abril de' | replace:'May','de Maio de' | replace:'June','de Junho de' | replace:'July','de Julho de' | replace:'August','de Agosto de' | replace:'September','de Setembro de' | replace:'October','de Outubro de' | replace:'November','de Novembro de' | replace:'December','de Dezembro de' }}</div>
+				<div class="date">{% include date.html %}</div>
 			</div>
 			<div class="story">{{ post.content }}</div>
 		</article>
