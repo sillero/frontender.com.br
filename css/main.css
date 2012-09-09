@@ -109,7 +109,6 @@ body, html {
 
 #content {
 	min-width: 300px;
-	padding: 0 10px;
 	height: 100%;
 	position: relative;
 }
