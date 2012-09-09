@@ -123,7 +123,24 @@ body, html {
 #posts article {
 	margin: 10px;
 }
-
+#posts .title {
+	font-size: 20px;
+	font-weight: bold;
+}
+#posts .meta {
+	overflow: hidden;
+}
+#posts .author, #posts .date {
+	font-size: 12px;
+	float: left;
+}
+#posts .author::after {
+	content: "|";
+	margin: 0 10px;
+}
+#posts .story {
+	margin-top: 20px;
+}
 
 
 
