@@ -6,3 +6,6 @@ Desktop.ini
 
 # Mac crap
 .DS_Store
+
+# Jekyll output
+_site/
