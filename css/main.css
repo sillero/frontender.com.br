@@ -115,6 +115,9 @@ body, html {
     width: 524px;
     float: left;
 }
+#fixed .content {
+    padding: 0 20px;
+}
 #section {
 	margin-left: 524px;
     min-width: 507px;
