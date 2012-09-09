@@ -197,6 +197,7 @@ body, html {
 
 @media only screen and (max-width: 1024px) {
     #content {
+        max-width: 1024px;
         min-height: 768px;
     }
     #right {
