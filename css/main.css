@@ -67,7 +67,10 @@ textarea {
 	font-weight: normal;
 	font-style: normal;
 }
-
+a {
+	color: #727B91;
+	text-decoration: underline;
+}
 .logo {
 	font-family: 'hborja';
 	font-size: 72px;
@@ -129,6 +132,7 @@ body, html {
 }
 #posts .meta {
 	overflow: hidden;
+	color: #bbb;
 }
 #posts .author, #posts .date {
 	font-size: 12px;
@@ -136,7 +140,10 @@ body, html {
 }
 #posts .author::after {
 	content: "|";
-	margin: 0 10px;
+	margin: 0 10px 0 5px;
+	font-size: 10px;
+	position: relative;
+	top: -1px;
 }
 #posts .story {
 	margin-top: 20px;
