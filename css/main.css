@@ -119,8 +119,10 @@ body, html {
 	height: 100%;
 }
 #posts {
-	margin: 10px;
 	padding: 10px;
+}
+#posts article {
+	margin: 10px;
 }
 
 
