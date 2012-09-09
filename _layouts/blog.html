@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-{% assign default_author = 'sillero' %}
 
 	<section id="posts">
 		{% for post in site.posts %}
 		<article>
 			<div class="title">{{ post.title }}</div>
-			<div class="author">{% if post.author %}{{ post.author }}{% else %}{{ default_author }}{% endif %}</div>
+			<div class="author">{% include author.md %}</div>
 			<div class="date">{{ post.date | date_to_long_string | replace:'January','Janeiro' | replace:'February','Fevereiro' | replace:'March','Março' | replace:'April','Abril' | replace:'May','Maio' | replace:'June','Junho' | replace:'July','Julho' | replace:'August','Agosto' | replace:'September','Setembro' | replace:'October','Outubro' | replace:'November','Novembro' | replace:'December','Dezembro' }}</div>
 			<div class="story">{{ post.content }}</div>
 		</article>
