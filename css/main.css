@@ -76,7 +76,7 @@ a {
 	font-size: 72px;
 	color: #727B91;
 	display: block;
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 25%;
 	margin-left: -131px;
