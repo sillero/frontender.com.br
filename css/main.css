@@ -198,6 +198,9 @@ body, html {
 }
 
 @media only screen and (max-width: 1024px) {
+    #content {
+        min-height: 768px;
+    }
     #left {
         width: 400px;
     }
