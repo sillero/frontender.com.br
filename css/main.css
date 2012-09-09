@@ -116,6 +116,7 @@ body, html {
     overflow: auto;
     height: 100%;
     background: url(img/grey.png);
+    box-shadow: 3px 0 10px #000;
 }
 #left > .wrapper {
     padding: 0 20px;
@@ -136,7 +137,11 @@ body, html {
 	padding: 10px;
 }
 #posts article {
-	margin: 10px 0 60px;
+	margin: 0 0 60px;
+    padding-top: 12px;
+}
+#posts article + article {
+    border-top: 1px solid #333;
 }
 #posts .title {
 	font-size: 20px;
