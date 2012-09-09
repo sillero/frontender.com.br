@@ -124,11 +124,13 @@ body, html {
 	padding: 10px;
 }
 #posts article {
-	margin: 10px;
+	margin: 10px 0;
 }
 #posts .title {
 	font-size: 20px;
 	font-weight: bold;
+	text-indent: 10px
+	background: #fafafa;
 }
 #posts .meta {
 	overflow: hidden;
@@ -148,8 +150,12 @@ body, html {
 	content: "em";
 	margin: 0 4px 0 0;
 }
+#posts .meta, #posts .story {
+	margin: 0 10px;
+}
 #posts .story {
 	margin-top: 20px;
+	font-size: 12px;
 }
 
 
