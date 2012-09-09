@@ -129,7 +129,7 @@ body, html {
 #posts .title {
 	font-size: 20px;
 	font-weight: bold;
-	text-indent: 10px
+	text-indent: 10px;
 	background: #fafafa;
 }
 #posts .meta {
