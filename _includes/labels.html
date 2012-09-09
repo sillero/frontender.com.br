@@ -1,4 +1,1 @@
-{% assign labels = post.labels | split:',' %}
-{% for label in labels %}
-	<span class="label">{{ label }}</span>
-{% endfor %}
+<span class="label">{{ post.labels | replace:'l_','<span class="label">' }}</span>
