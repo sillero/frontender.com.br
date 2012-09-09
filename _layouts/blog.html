@@ -1,0 +1,10 @@
+---
+layout: default
+---
+    <section id="posts">
+    	{% for post in site.posts %}
+    		<div class="title">{{ post.title }}</div>
+    		<div class="date">{{ post.date }}</div>
+    		<div class="story">{{ post.content }}</div>
+		{% endfor %}
+    </section>
