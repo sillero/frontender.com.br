@@ -110,19 +110,23 @@ body, html {
 	height: 100%;
 	position: relative;
 }
-#fixed {
-    position: fixed;
+#left {
     width: 524px;
     float: left;
+    overflow: auto;
 }
-#fixed .content {
+#left .wrapper {
     padding: 0 20px;
 }
-#section {
+#left .footer {
+
+}
+#right {
 	margin-left: 524px;
     min-width: 507px;
 	background: #f8f8f8;
 	height: 100%;
+    overflow: auto;
 }
 #posts {
 	padding: 10px;
