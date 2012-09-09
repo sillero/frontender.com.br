@@ -1,1 +1,1 @@
-<span class="label">{{ post.labels | replace:'l_','<span class="label">' }}</span>
+{{ post.labels | replace:'[l[','<span class="label">', | replace:'[g[','<span class="label label-success">' | replace:'[y[','<span class="label label-warning">' | replace:'[r[','<span class="label label-important">' | replace:'[b[','<span class="label label-info">' | replace:'[k[','<span class="label label-inverse">', | replace:']]','</span>' }}
