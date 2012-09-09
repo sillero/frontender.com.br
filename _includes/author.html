@@ -10,6 +10,5 @@
 	{% assign author_url = 'http://github.com/' | append: author_name %}
 {% endif %}
 
-{% capture output %}({{ author_name }})[{{ author_url }}]{% endcapture %}
-{{ output | markdownify }}
+<a href="{{ author_url }}">{{ author_name }}</a>
 
