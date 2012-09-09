@@ -1,0 +1,9 @@
+<article>
+	<div class="title">{{ post.title }}</div>
+	<div class="meta">
+		<div class="author">{% include author.html %}</div>
+		<div class="date">{% include date.html %}</div>
+		{% if post.labels %}<div class="labels">{% include labels.html %}</div>{% endif %}
+	</div>
+	<div class="story">{{ post.content }}</div>
+</article>
