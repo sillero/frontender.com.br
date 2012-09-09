@@ -77,10 +77,9 @@ a {
 	color: #727B91;
 	display: block;
 	position: fixed;
-	top: 50%;
+	top: 30px;
 	left: 25%;
 	margin-left: -131px;
-	margin-top: -70px;
 }
 .logo .symbol {
 	display: none;
@@ -114,9 +113,13 @@ body, html {
 	height: 100%;
 	position: relative;
 }
+#fixed {
+    position: fixed;
+    width: 524px;
+    float: left;
+}
 #section {
-	margin-left: 50%;
-	width: 50%;
+	margin-left: 524px;
 	background: #f8f8f8;
 	height: 100%;
 }
