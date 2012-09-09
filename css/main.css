@@ -125,8 +125,8 @@ body, html {
 
 }
 #right {
-	margin-left: 524px;
-    min-width: 507px;
+	margin-left: 400px;
+    min-width: 607px;
 	background: url(img/dark_wall.png);
     color: #fff;
     box-shadow: -3px 0 70px #fff;
