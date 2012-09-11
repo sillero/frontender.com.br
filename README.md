@@ -2,9 +2,10 @@
 Recursos e notícias para desenvolvedores front-end brasileiros
 
 ### ToDo
-- icons
-- layout
-- jekyll blog structure
+- -ícones-
+- -jekyll blog structure-
+- configurar pacote para o yeoman
+- finalizar layout
 
 ### Contribuidores
 - [Gustavo Sillero](/sillero) (só, por enquanto :p)
